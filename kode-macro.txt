@@ -1,0 +1,20 @@
+Resolusi
+--------
+8K 	= 4320
+4K 	= 2160   
+FHD 	= 1080
+HD 	= 720
+SD 	= 480
+
+
+Kode Macro VBA
+--------------
+If ActivePresentation.CreateVideoStatus <> ppMediaTaskStatusInProgress Then
+ActivePresentation.CreateVideo FileName:=Environ("USERPROFILE") & "\Videos\Video Saya.mp4", _
+UseTimingsAndNarrations:=True, _
+VertResolution:=1080, _
+FramesPerSecond:=60, _
+Quality:=100
+Else: MsgBox "There is another conversion to video in progress"
+End If
+--------------
