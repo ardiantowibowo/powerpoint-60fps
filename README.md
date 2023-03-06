@@ -1,4 +1,4 @@
-# Mengubah Powerpoint Menjadi Video Hingga 8K 60fps
+# Mengubah Powerpoint Menjadi Video Hingga 8K 60FPS
 Cara Menggunakan:
 1. Buat atau buka file presentasi terlebih dahulu
 2. Klik tab View
